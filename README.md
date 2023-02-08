@@ -156,3 +156,17 @@ SELECT ROUND(AVG(CAST(C.POPULATION as DESIMAL(9,3))),3) FROM CITY C WHERE C.DIST
 </br>
 </br>
 
+#### Q4:
+Query the average population for all cities in CITY, rounded down to the nearest integer.
+
+```mysql
+SELECT FLOOR(AVG(C.POPULATION)) FROM CITY C;
+```
+
+![section 3 fourth answer](section_3/section3_4.png)
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
