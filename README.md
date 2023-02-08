@@ -12,6 +12,8 @@ SELECT * FROM CITY WHERE COUNTRYCODE = 'USA' && POPULATION > 100000;
 ```
 
 ![section 1 first answer](section_1/section1_1.png)
+</br>
+</br>
 
 #### Q2:
 Query the NAME field for all American cities in the CITY table with populations larger than 120000. The CountryCode for America is USA.
