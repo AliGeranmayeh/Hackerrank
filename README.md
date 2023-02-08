@@ -78,3 +78,18 @@ SELECT DISTINCT S.CITY FROM STATION S WHERE MOD(S.ID,2)=0 ORDER BY S.CITY ASC;
 </br>
 </br>
 </br>
+
+#### Q2:
+Write a query that prints a list of employee names (i.e.: the name attribute) from the Employee table in alphabetical order.
+
+```mysql
+SELECT name FROM Employee ORDER BY name ASC;
+```
+
+![section 2 second answer](section_2/section2_2.png)
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
