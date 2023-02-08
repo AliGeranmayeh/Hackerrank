@@ -108,3 +108,20 @@ SELECT name FROM Employee WHERE salary > 2000 && months < 10 ORDER BY  employee_
 </br>
 </br>
 </br>
+
+### section 3
+
+#### Q1:
+Query a count of the number of cities in CITY having a Population larger than 100,000
+
+```mysql
+SELECT COUNT(C.ID) FROM CITY C WHERE C.POPULATION > 100000;
+```
+
+![section 3 first answer](section_3/section3_1.png)
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
