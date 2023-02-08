@@ -218,3 +218,17 @@ SELECT SUM(CITY.POPULATION) FROM CITY,COUNTRY WHERE CITY.COUNTRYCODE = COUNTRY.C
 </br>
 </br>
 
+#### Q3:
+Given the CITY and COUNTRY tables, query the names of all the continents (COUNTRY.Continent) and their respective average city populations (CITY.Population) rounded down to the nearest integer.
+
+```mysql
+SELECT COUNTRY.CONTINENT FLOOR(AVG(CITY.POPULATION)) FROM CITY,COUNTRY WHERE CITY.COUNTRYCODE = COUNTRY.CODE GROUP BY COUNTRY.CONTINENT;
+```
+
+![section 4 third answer](section_4/section4_3.png)
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
