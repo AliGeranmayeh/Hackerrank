@@ -61,3 +61,20 @@ SELECT C.* FROM CITY C WHERE C.ID = 1661;
 </br>
 </br>
 </br>
+
+### section 2
+
+#### Q1:
+Query a list of CITY names from STATION for cities that have an even ID number. Print the results in any order, but exclude duplicates from the answer.
+
+```mysql
+SELECT DISTINCT S.CITY FROM STATION S WHERE MOD(S.ID,2)=0 ORDER BY S.CITY ASC;
+```
+
+![section 2 first answer](section_2/section2_1.png)
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
