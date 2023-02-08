@@ -170,3 +170,18 @@ SELECT FLOOR(AVG(C.POPULATION)) FROM CITY C;
 </br>
 </br>
 </br>
+
+#### Q5:
+Query the difference between the maximum and minimum populations in CITY.
+
+```mysql
+SELECT MAX(C.POPULATION) - MIN(C.POPULATION) FROM CITY C;
+```
+
+![section 3 fifth answer](section_3/section3_5.png)
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
