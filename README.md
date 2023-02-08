@@ -140,3 +140,19 @@ SELECT SUM(C.POPULATION) FROM CITY C WHERE C.DISTRICT = 'California';
 </br>
 </br>
 </br>
+
+#### Q3:
+Query the average population of all cities in CITY where District is California.
+
+```mysql
+SELECT ROUND(AVG(CAST(C.POPULATION as DESIMAL(9,3))),3) FROM CITY C WHERE C.DISTRICT = 'California';
+```
+
+![section 3 third answer](section_3/section3_3.png)
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
