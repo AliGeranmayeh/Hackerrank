@@ -191,8 +191,6 @@ SELECT MAX(C.POPULATION) - MIN(C.POPULATION) FROM CITY C;
 #### Q1:
 Given the CITY and COUNTRY tables, query the names of all cities where the CONTINENT is 'Africa'.
 
-Note: CITY.CountryCode and COUNTRY.Code are matching key columns.
-
 ```mysql
 SELECT CITY.NAME FROM CITY,COUNTRY WHERE CITY.COUNTRYCODE = COUNTRY.CODE AND CONTINENT = 'Africa';
 ```
@@ -204,3 +202,19 @@ SELECT CITY.NAME FROM CITY,COUNTRY WHERE CITY.COUNTRYCODE = COUNTRY.CODE AND CON
 </br>
 </br>
 </br>
+
+#### Q2:
+Given the CITY and COUNTRY tables, query the sum of the populations of all cities where the CONTINENT is 'Asia'.
+
+```mysql
+SELECT SUM(CITY.POPULATION) FROM CITY,COUNTRY WHERE CITY.COUNTRYCODE = COUNTRY.CODE AND CONTINENT = 'Asia';
+```
+
+![section 4 second answer](section_4/section4_2.png)
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
