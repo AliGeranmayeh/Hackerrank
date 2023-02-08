@@ -28,3 +28,12 @@ SELECT C.* FROM CITY C;
 ```
 
 ![section 1 third answer](section_1/section1_3.png)
+
+#### Q4:
+Query all columns for a city in CITY with the ID 1661.
+
+```mysql
+SELECT C.* FROM CITY C WHERE C.ID = 1661;
+```
+
+![section 1 fourth answer](section_1/section1_4.png)
