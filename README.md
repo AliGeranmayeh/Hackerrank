@@ -20,3 +20,11 @@ SELECT C.NAME FROM CITY C WHERE C.COUNTRYCODE = 'USA' AND C.POPULATION > 120000;
 ```
 
 ![section 1 second answer](section_1/section1_2.png)
+
+#### Q3:
+Query all columns (attributes) for every row in the CITY table.
+```mysql
+SELECT C.* FROM CITY C;
+```
+
+![section 1 third answer](section_1/section1_3.png)
