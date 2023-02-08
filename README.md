@@ -125,3 +125,18 @@ SELECT COUNT(C.ID) FROM CITY C WHERE C.POPULATION > 100000;
 </br>
 </br>
 </br>
+
+#### Q2:
+Query the total population of all cities in CITY where District is California.
+
+```mysql
+SELECT SUM(C.POPULATION) FROM CITY C WHERE C.DISTRICT = 'California';
+```
+
+![section 3 second answer](section_3/section3_2.png)
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
